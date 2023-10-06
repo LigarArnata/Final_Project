@@ -1,6 +1,6 @@
 import Hero from "../components/Hero/Hero";
 import Navbar from "../components/Navbar/Navbar";
-import AboutImg from "../assets/3.jpg";
+import CategoryImg from "../assets/3.jpg";
 
 const Category = () => {
     return(
@@ -8,7 +8,7 @@ const Category = () => {
             <Navbar/>
             <Hero
             cName='heroMid'
-            heroImage={AboutImg}
+            heroImage={CategoryImg}
             title= 'Category'
             btnClass= 'hide'
             />
